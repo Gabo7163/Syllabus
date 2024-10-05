@@ -10,7 +10,6 @@ from utilidades import N_SECOND
 from consultas import ajustar_precio_segun_ingredientes
 
 
-
 class TestAjustarPrecioSegunIngredientesCorrectitud(unittest.TestCase):
 
     def shortDescription(self):
@@ -333,6 +332,68 @@ class TestAjustarPrecioSegunIngredientesCorrectitud(unittest.TestCase):
                 precio=7000,
             ),
             Pizza(nombre="Hawaana_S", ingredientes="tomate;jamón;piña;kd", precio=7000),
+        ]
+
+        self.assertCountEqual(lista_estudiante, lista_esperada)
+
+    @timeout(N_SECOND)
+    def test_6(self):
+        """
+        Verifica funcionamiento correcto cuando se tienen ingredientes que son substrings de otros ingredientes.
+        """
+
+        Pizza = namedtuple("Pizza", ["nombre", "ingredientes", "precio"])
+
+        lista_entregada = [
+            Pizza(
+                nombre="DROP TABLE Marga_S",
+                ingredientes="substring;queso;albahaca;kd",
+                precio=9424,
+            ),
+            Pizza(
+                nombre="Naplitan 2E INFINITO PODER_XL",
+                ingredientes="substri;tomate;substrin;salsa de substring;substring a lo BBQ;queso;jamón;substr",
+                precio=70543,
+            ),
+            Pizza(nombre="Hawaana_S", ingredientes="tomate;jamón;piña;kd", precio=7000),
+            Pizza(
+                nombre="THE REAL Perfoni_L",
+                ingredientes="queso;pepperoni;substring",
+                precio=80004,
+            ),
+            Pizza(
+                nombre="Vegetariana_S",
+                ingredientes="tomate;queso;substrin;salsa de substring;pimentón;aceitunas;kd",
+                precio=90534532,
+            ),
+            Pizza(
+                nombre="Pollo BBQ_XL",
+                ingredientes="tomate;substri;pollo;sub;cebolla;bbq;substrin",
+                precio=8900,
+            ),
+        ]
+
+        generador_entregado = (asociacion for asociacion in lista_entregada)
+
+        resultado_estudiante = ajustar_precio_segun_ingredientes(
+            generador_entregado, "substring", -30
+        )
+
+        self.assertIsInstance(resultado_estudiante, (Iterable))
+
+        lista_estudiante = [pedido for pedido in resultado_estudiante]
+
+        lista_esperada = [
+            Pizza(
+                nombre="DROP TABLE Marga_S",
+                ingredientes="substring;queso;albahaca;kd",
+                precio=9394,
+            ),
+            Pizza(
+                nombre="THE REAL Perfoni_L",
+                ingredientes="queso;pepperoni;substring",
+                precio=79974,
+            ),
         ]
 
         self.assertCountEqual(lista_estudiante, lista_esperada)

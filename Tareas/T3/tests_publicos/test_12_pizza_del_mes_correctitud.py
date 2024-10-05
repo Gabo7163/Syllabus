@@ -148,9 +148,10 @@ class TestPizzaDelMesCorrectitud(unittest.TestCase):
 
         self.assertCountEqual(resultado_estudiante, resultado_esperado)
 
+    @timeout(N_SECOND)
     def test_2(self):
         """
-        Verifica que el test funcione en caso de pizzas similares
+        Verifica que el test funcione en caso de pizzas similares.
         """
         Pedido = namedtuple(
             "Pedido", ["id_pedido", "id_local", "id_cliente", "fecha", "hora"]
@@ -209,9 +210,10 @@ class TestPizzaDelMesCorrectitud(unittest.TestCase):
 
         self.assertCountEqual(resultado_estudiante, resultado_esperado)
 
+    @timeout(N_SECOND)
     def test_3(self):
         """
-        Verifica que el test funcione en casos más complejos con más de una pizza por pedido
+        Verifica que el test funcione en casos más complejos con más de una pizza por pedido.
         """
         Pedido = namedtuple(
             "Pedido", ["id_pedido", "id_local", "id_cliente", "fecha", "hora"]
@@ -357,9 +359,10 @@ class TestPizzaDelMesCorrectitud(unittest.TestCase):
 
         self.assertCountEqual(resultado_estudiante, resultado_esperado)
 
+    @timeout(N_SECOND)
     def test_4(self):
         """
-        Verifica que el test funcione en un caso normal
+        Verifica que el test funcione en un caso normal.
         """
         Pedido = namedtuple(
             "Pedido", ["id_pedido", "id_local", "id_cliente", "fecha", "hora"]

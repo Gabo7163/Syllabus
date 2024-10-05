@@ -145,6 +145,7 @@ class TestPizzaDelMesCargaDatos(unittest.TestCase):
 
         self.assertEqual(largo_estudiante, largo_esperado)
 
+    @timeout(N_SECOND)
     def test_4(self):
         """
         Verifica que se retorne lo pedido con instancias de tamaño M.
@@ -176,6 +177,7 @@ class TestPizzaDelMesCargaDatos(unittest.TestCase):
 
         self.assertEqual(largo_estudiante, largo_esperado)
 
+    @timeout(N_SECOND)
     def test_5(self):
         """
         Verifica que se retorne lo pedido con instancias de tamaño L.
@@ -207,6 +209,7 @@ class TestPizzaDelMesCargaDatos(unittest.TestCase):
 
         self.assertEqual(largo_estudiante, largo_esperado)
 
+    @timeout(N_SECOND)
     def test_6(self):
         """
         Verifica que se retorne lo pedido con instancias de tamaño L.
@@ -238,6 +241,7 @@ class TestPizzaDelMesCargaDatos(unittest.TestCase):
 
         self.assertEqual(largo_estudiante, largo_esperado)
 
+    @timeout(N_SECOND)
     def test_7(self):
         """
         Verifica que se retorne lo pedido con instancias de tamaño L.
@@ -269,6 +273,7 @@ class TestPizzaDelMesCargaDatos(unittest.TestCase):
 
         self.assertEqual(largo_estudiante, largo_esperado)
 
+    @timeout(N_SECOND)
     def test_8(self):
         """
         Verifica que se retorne lo pedido con instancias de tamaño L.

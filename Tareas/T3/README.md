@@ -14,4 +14,4 @@
 
 > 5 de octubre
 1. Se agregó "timeout" en todos los tests: test_12_pizza_del_mes_carga_datos
-2. Ajuste tests funciones ajustar_precio_segun_ingredientes y popularidad_mezcla_de_ingredientes
+2. Ajuste tests funciones ajustar_precio_segun_ingredientes y popularidad_mezcla_de_ingredientes. Se agregaron tests que verifican funcionamiento correcto cuando se tienen ingredientes que son substrings de otros ingredientes. Por ejemplo, al tener "tomate" como ingrediente, no considerar pizzas que tienen "salsa de tomate" y no "tomate". Este ajuste está relacionado con el ajuste número 1 del día 2 de octubre.

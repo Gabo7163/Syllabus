@@ -81,22 +81,22 @@ class TestGananciaTotalDeUnLocalCorrectitud(unittest.TestCase):
 
         lista_entregada = [
             Pedido(
-                id_pedido=1, id_local=1, id_cliente=1, fecha="2021-01-01", hora="12:00"
+                id_pedido=1, id_local=1, id_cliente=1, fecha="2021-01-01", hora="12:00:00"
             ),
             Pedido(
-                id_pedido=2, id_local=1, id_cliente=2, fecha="2021-01-01", hora="12:30"
+                id_pedido=2, id_local=1, id_cliente=2, fecha="2021-01-01", hora="12:30:00"
             ),
             Pedido(
-                id_pedido=3, id_local=1, id_cliente=3, fecha="2021-01-01", hora="17:00"
+                id_pedido=3, id_local=1, id_cliente=3, fecha="2021-01-01", hora="17:00:00"
             ),
             Pedido(
-                id_pedido=4, id_local=1, id_cliente=4, fecha="2021-01-01", hora="18:30"
+                id_pedido=4, id_local=1, id_cliente=4, fecha="2021-01-01", hora="18:30:00"
             ),
             Pedido(
-                id_pedido=5, id_local=1, id_cliente=5, fecha="2021-01-01", hora="12:00"
+                id_pedido=5, id_local=1, id_cliente=5, fecha="2021-01-01", hora="12:00:00"
             ),
             Pedido(
-                id_pedido=6, id_local=1, id_cliente=6, fecha="2021-01-01", hora="13:00"
+                id_pedido=6, id_local=1, id_cliente=6, fecha="2021-01-01", hora="13:00:00"
             ),
         ]
 
@@ -191,22 +191,22 @@ class TestGananciaTotalDeUnLocalCorrectitud(unittest.TestCase):
 
         lista_entregada = [
             Pedido(
-                id_pedido=1, id_local=1, id_cliente=1, fecha="2021-01-01", hora="12:00"
+                id_pedido=1, id_local=1, id_cliente=1, fecha="2021-01-01", hora="12:00:00"
             ),
             Pedido(
-                id_pedido=2, id_local=2, id_cliente=2, fecha="2021-01-01", hora="12:30"
+                id_pedido=2, id_local=2, id_cliente=2, fecha="2021-01-01", hora="12:30:00"
             ),
             Pedido(
-                id_pedido=3, id_local=3, id_cliente=3, fecha="2021-01-01", hora="17:30"
+                id_pedido=3, id_local=3, id_cliente=3, fecha="2021-01-01", hora="17:30:00"
             ),
             Pedido(
-                id_pedido=4, id_local=1, id_cliente=4, fecha="2021-01-01", hora="18:30"
+                id_pedido=4, id_local=1, id_cliente=4, fecha="2021-01-01", hora="18:30:00"
             ),
             Pedido(
-                id_pedido=5, id_local=1, id_cliente=5, fecha="2021-01-01", hora="12:00"
+                id_pedido=5, id_local=1, id_cliente=5, fecha="2021-01-01", hora="12:00:00"
             ),
             Pedido(
-                id_pedido=6, id_local=3, id_cliente=6, fecha="2021-01-01", hora="13:00"
+                id_pedido=6, id_local=3, id_cliente=6, fecha="2021-01-01", hora="13:00:00"
             ),
         ]
 
@@ -312,22 +312,22 @@ class TestGananciaTotalDeUnLocalCorrectitud(unittest.TestCase):
 
         lista_entregada = [
             Pedido(
-                id_pedido=1, id_local=1, id_cliente=1, fecha="2021-01-01", hora="12:00"
+                id_pedido=1, id_local=1, id_cliente=1, fecha="2021-01-01", hora="12:00:00"
             ),
             Pedido(
-                id_pedido=2, id_local=2, id_cliente=2, fecha="2021-01-01", hora="12:30"
+                id_pedido=2, id_local=2, id_cliente=2, fecha="2021-01-01", hora="12:30:00"
             ),
             Pedido(
-                id_pedido=3, id_local=3, id_cliente=3, fecha="2021-01-01", hora="17:30"
+                id_pedido=3, id_local=3, id_cliente=3, fecha="2021-01-01", hora="17:30:00"
             ),
             Pedido(
-                id_pedido=4, id_local=1, id_cliente=4, fecha="2021-01-01", hora="18:30"
+                id_pedido=4, id_local=1, id_cliente=4, fecha="2021-01-01", hora="18:30:00"
             ),
             Pedido(
-                id_pedido=5, id_local=1, id_cliente=5, fecha="2021-01-01", hora="12:00"
+                id_pedido=5, id_local=1, id_cliente=5, fecha="2021-01-01", hora="12:00:00"
             ),
             Pedido(
-                id_pedido=6, id_local=1, id_cliente=6, fecha="2021-01-01", hora="13:00"
+                id_pedido=6, id_local=1, id_cliente=6, fecha="2021-01-01", hora="13:00:00"
             ),
         ]
 
@@ -439,28 +439,28 @@ class TestGananciaTotalDeUnLocalCorrectitud(unittest.TestCase):
 
         lista_entregada = [
             Pedido(
-                id_pedido=1, id_local=1, id_cliente=1, fecha="2021-01-01", hora="12:00"
+                id_pedido=1, id_local=1, id_cliente=1, fecha="2021-01-01", hora="12:00:00"
             ),
             Pedido(
-                id_pedido=2, id_local=2, id_cliente=2, fecha="2021-01-01", hora="12:30"
+                id_pedido=2, id_local=2, id_cliente=2, fecha="2021-01-01", hora="12:30:00"
             ),
             Pedido(
-                id_pedido=3, id_local=3, id_cliente=3, fecha="2021-01-01", hora="17:30"
+                id_pedido=3, id_local=3, id_cliente=3, fecha="2021-01-01", hora="17:30:00"
             ),
             Pedido(
-                id_pedido=4, id_local=1, id_cliente=4, fecha="2021-01-01", hora="18:30"
+                id_pedido=4, id_local=1, id_cliente=4, fecha="2021-01-01", hora="18:30:00"
             ),
             Pedido(
-                id_pedido=5, id_local=1, id_cliente=5, fecha="2021-01-01", hora="12:00"
+                id_pedido=5, id_local=1, id_cliente=5, fecha="2021-01-01", hora="12:00:00"
             ),
             Pedido(
-                id_pedido=6, id_local=1, id_cliente=6, fecha="2021-01-01", hora="13:00"
+                id_pedido=6, id_local=1, id_cliente=6, fecha="2021-01-01", hora="13:00:00"
             ),
             Pedido(
-                id_pedido=7, id_local=1, id_cliente=7, fecha="2021-01-01", hora="13:00"
+                id_pedido=7, id_local=1, id_cliente=7, fecha="2021-01-01", hora="13:00:00"
             ),
             Pedido(
-                id_pedido=8, id_local=2, id_cliente=8, fecha="2021-01-01", hora="13:00"
+                id_pedido=8, id_local=2, id_cliente=8, fecha="2021-01-01", hora="13:00:00"
             ),
         ]
 
@@ -592,31 +592,31 @@ class TestGananciaTotalDeUnLocalCorrectitud(unittest.TestCase):
 
         lista_entregada = [
             Pedido(
-                id_pedido=1, id_local=1, id_cliente=1, fecha="2021-01-01", hora="12:00"
+                id_pedido=1, id_local=1, id_cliente=1, fecha="2021-01-01", hora="12:00:00"
             ),
             Pedido(
-                id_pedido=2, id_local=2, id_cliente=2, fecha="2021-01-01", hora="12:30"
+                id_pedido=2, id_local=2, id_cliente=2, fecha="2021-01-01", hora="12:30:00"
             ),
             Pedido(
-                id_pedido=3, id_local=3, id_cliente=3, fecha="2021-01-01", hora="17:30"
+                id_pedido=3, id_local=3, id_cliente=3, fecha="2021-01-01", hora="17:30:00"
             ),
             Pedido(
-                id_pedido=4, id_local=1, id_cliente=4, fecha="2021-01-01", hora="18:30"
+                id_pedido=4, id_local=1, id_cliente=4, fecha="2021-01-01", hora="18:30:00"
             ),
             Pedido(
-                id_pedido=5, id_local=1, id_cliente=5, fecha="2021-01-01", hora="12:00"
+                id_pedido=5, id_local=1, id_cliente=5, fecha="2021-01-01", hora="12:00:00"
             ),
             Pedido(
-                id_pedido=6, id_local=1, id_cliente=6, fecha="2021-01-01", hora="13:00"
+                id_pedido=6, id_local=1, id_cliente=6, fecha="2021-01-01", hora="13:00:00"
             ),
             Pedido(
-                id_pedido=7, id_local=1, id_cliente=7, fecha="2021-01-01", hora="13:00"
+                id_pedido=7, id_local=1, id_cliente=7, fecha="2021-01-01", hora="13:00:00"
             ),
             Pedido(
-                id_pedido=8, id_local=2, id_cliente=8, fecha="2021-01-01", hora="13:00"
+                id_pedido=8, id_local=2, id_cliente=8, fecha="2021-01-01", hora="13:00:00"
             ),
             Pedido(
-                id_pedido=9, id_local=2, id_cliente=9, fecha="2021-01-01", hora="13:00"
+                id_pedido=9, id_local=2, id_cliente=9, fecha="2021-01-01", hora="13:00:00"
             ),
             Pedido(
                 id_pedido=10,

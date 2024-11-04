@@ -47,6 +47,8 @@ Las secciones 1,2 y 3 tendrán un sistema de rotación de ayudantes en sus horar
 | 11        | 05/11  | Interfaces 2 | 4      | B11  | Julio   |
 |           |        |              | 4      | B23  | Diego    |
 |           |        |              | 5      | B23  | Felipe   |
+|           |        |              | 5      | B23  | Clemente |
+|           |        |              | 6      | B23  | Alejandro |
 | 12        | 12/11  | Avanzados    | 4      | B11  | Diego    |
 |           |        |              | 4      | B23  | Felipe    |
 |           |        |              | 5      | B23  | Julio   |

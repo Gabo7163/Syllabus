@@ -85,7 +85,7 @@ class Cliente(QObject):
 
 
 class Musica(QObject):
-
+    
     def __init__(self, ruta_cancion):
         super().__init__()
         self.ruta_cancion = ruta_cancion
@@ -94,12 +94,22 @@ class Musica(QObject):
         try:
             self.player = QMediaPlayer(self)
             path = os.path.abspath(self.ruta_cancion)
+            if not os.path.isfile(path):
+                raise FileNotFoundError(f"El archivo '{path}' no fue encontrado.")
+                
             cancion = QMediaContent(QUrl.fromLocalFile(path))
             self.player.setMedia(cancion)
             self.player.play()
             self.player.mediaStatusChanged.connect(self.loopear_cancion)
-        except Exception as error:
-            print('No se pudo iniciar la cancion', error)
+        
+        except FileNotFoundError as error:
+            print('Error: archivo de música no encontrado:', error)
+        
+        except ValueError as error:
+            print('Error de valor al cargar el archivo de música:', error)
+        
+        except RuntimeError as error:
+            print('Error en el sistema multimedia:', error)
 
     def loopear_cancion(self, status):
         if status == QMediaPlayer.EndOfMedia:

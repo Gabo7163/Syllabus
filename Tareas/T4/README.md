@@ -5,4 +5,4 @@
 # Actualizaciones Tarea
 
 > 07/11/2024
-1. Se actualiza link de pauta 
+1. Se actualiza link de distribución de puntaje

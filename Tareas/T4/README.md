@@ -4,5 +4,5 @@
 
 # Actualizaciones Tarea
 
-> Fecha
-1. 
+> 07/11/2024
+1. Se actualiza link de pauta 

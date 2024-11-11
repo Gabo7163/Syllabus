@@ -1,4 +1,4 @@
-from por_copiar.utilidades import ContenidoPedidos, Locales, Pedidos, Pizzas
+from utilidades import ContenidoPedidos, Locales, Pedidos, Pizzas
 
 CANTIDAD_VENDIDA_DE_PIZZA_POR_TIPO_S_1=104
 CANTIDAD_VENDIDA_DE_PIZZA_POR_TIPO_S_2=105

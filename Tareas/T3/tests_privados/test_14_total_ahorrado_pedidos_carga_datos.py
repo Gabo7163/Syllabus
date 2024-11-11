@@ -5,7 +5,7 @@ from collections.abc import Iterable
 
 from tests_privados.timeout_function import timeout
 from tests_privados.solution.test_14 import *
-from por_copiar.utilidades import N_SECOND
+from utilidades import N_SECOND
 sys.stdout = open(os.devnull, 'w')
 
 from consultas import cargar_contenido_pedidos, cargar_pizzas, total_ahorrado_pedidos

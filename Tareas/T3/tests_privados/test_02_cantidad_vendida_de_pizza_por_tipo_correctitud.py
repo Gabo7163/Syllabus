@@ -4,7 +4,7 @@ import unittest
 from collections import namedtuple
 
 from tests_privados.timeout_function import timeout
-from por_copiar.utilidades import N_SECOND
+from utilidades import N_SECOND
 sys.stdout = open(os.devnull, 'w')
 
 from consultas import cantidad_vendida_de_pizza_por_tipo

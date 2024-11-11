@@ -1,4 +1,4 @@
-from por_copiar.utilidades import ContenidoPedidos, Locales, Pedidos, Pizzas
+from utilidades import ContenidoPedidos, Locales, Pedidos, Pizzas
 
 PIZZA_MAS_VENDIDA_DEL_DIA_S_1=['Queso de Cabra y Pimientos', 'Pimienta y Jamón']
 PIZZA_MAS_VENDIDA_DEL_DIA_S_2=['Queso de Cabra y Pimientos', 'Pimienta y Jamón']

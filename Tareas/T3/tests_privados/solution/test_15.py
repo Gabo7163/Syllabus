@@ -1,4 +1,4 @@
-from por_copiar.utilidades import ContenidoPedidos, Locales, Pedidos, Pizzas
+from utilidades import ContenidoPedidos, Locales, Pedidos, Pizzas
 
 PIZZA_FAVORITA_CLIENTE_S_1=[('Carnívora BBQ', 9)]
 PIZZA_FAVORITA_CLIENTE_S_2=[('Queso de Cabra y Pimientos', 10)]

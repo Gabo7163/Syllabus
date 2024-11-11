@@ -1,4 +1,4 @@
-from por_copiar.utilidades import ContenidoPedidos, Locales, Pedidos, Pizzas
+from utilidades import ContenidoPedidos, Locales, Pedidos, Pizzas
 
 CANTIDAD_EMPLEADOS_PAIS_S_1=9
 CANTIDAD_EMPLEADOS_PAIS_S_2=14

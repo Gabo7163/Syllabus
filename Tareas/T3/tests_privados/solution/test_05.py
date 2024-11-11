@@ -1,4 +1,4 @@
-from por_copiar.utilidades import ContenidoPedidos, Locales, Pedidos, Pizzas
+from utilidades import ContenidoPedidos, Locales, Pedidos, Pizzas
 
 CLIENTES_DESPUES_HORA_S_1="28 49 27 6 23 12 0 24 15 37 15 9 39 44"
 CLIENTES_DESPUES_HORA_S_2="28"

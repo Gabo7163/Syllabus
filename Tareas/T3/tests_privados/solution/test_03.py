@@ -1,4 +1,4 @@
-from por_copiar.utilidades import ContenidoPedidos, Locales, Pedidos, Pizzas
+from utilidades import ContenidoPedidos, Locales, Pedidos, Pizzas
 
 PEDIDO_CON_MAYOR_DESCUENTO_UTILIZADO_S=([ContenidoPedidos(id_pedido=54, nombre='Carnívora BBQ_M', cantidad=2, descuento=0.37), ContenidoPedidos(id_pedido=54, nombre='Palta y Tomate_L', cantidad=2, descuento=0.37), ContenidoPedidos(id_pedido=54, nombre='Queso de Cabra y Pimientos_S', cantidad=5, descuento=0.37)], 3)
 PEDIDO_CON_MAYOR_DESCUENTO_UTILIZADO_M=([ContenidoPedidos(id_pedido=179, nombre='Radiante Sabroso Aromático con Cuidado_L', cantidad=2, descuento=0.4), ContenidoPedidos(id_pedido=258, nombre='Estupendo Divino Tentador con Genialidad_M', cantidad=4, descuento=0.4), ContenidoPedidos(id_pedido=198, nombre='Sublime Fino Sabroso con Cuidado_M', cantidad=2, descuento=0.4)], 9)

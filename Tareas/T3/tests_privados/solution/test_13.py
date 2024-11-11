@@ -1,4 +1,4 @@
-from por_copiar.utilidades import ContenidoPedidos, Locales, Pedidos, Pizzas
+from utilidades import ContenidoPedidos, Locales, Pedidos, Pizzas
 
 POPULARIDAD_MEZCLA_DE_INGREDIENTES_S_1=0
 POPULARIDAD_MEZCLA_DE_INGREDIENTES_S_2=104

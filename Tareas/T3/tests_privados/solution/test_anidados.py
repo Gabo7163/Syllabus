@@ -1,4 +1,4 @@
-from por_copiar.utilidades import ContenidoPedidos, Locales, Pedidos, Pizzas
+from utilidades import ContenidoPedidos, Locales, Pedidos, Pizzas
 
 RESULTADO_CONSULTA_ANIDADA_0=[Pizzas(nombre='Pepinillos y Tocino_S', ingredientes='pepinillos;tocino;queso;salsa de cebolla', precio=9420), Pizzas(nombre='Pepinillos y Tocino_M', ingredientes='pepinillos;tocino;queso;salsa de cebolla', precio=10537), Pizzas(nombre='Pepinillos y Tocino_L', ingredientes='pepinillos;tocino;queso;salsa de cebolla', precio=15191), Pizzas(nombre='Carnívora BBQ_S', ingredientes='carne molida;salchicha;tocino;queso;salsa BBQ', precio=7900), Pizzas(nombre='Carnívora BBQ_M', ingredientes='carne molida;salchicha;tocino;queso;salsa BBQ', precio=11051), Pizzas(nombre='Carnívora BBQ_L', ingredientes='carne molida;salchicha;tocino;queso;salsa BBQ', precio=17194)]
 RESULTADO_CONSULTA_ANIDADA_1=[Pizzas(nombre='Palta y Tomate_S', ingredientes='palta;tomate cherry;queso;salsa de tomate', precio=7718)]

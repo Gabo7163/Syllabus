@@ -1,4 +1,4 @@
-from por_copiar.utilidades import ContenidoPedidos, Locales, Pedidos, Pizzas
+from utilidades import ContenidoPedidos, Locales, Pedidos, Pizzas
 
 PIZZAS_VENDIDAS_MES_PAIS_S_1=3
 PIZZAS_VENDIDAS_MES_PAIS_S_2=0

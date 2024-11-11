@@ -4,8 +4,8 @@ import unittest
 from collections.abc import Iterable
 
 from tests_privados.timeout_function import timeout
-from por_copiar.utilidades import Pizzas, Locales, ContenidoPedidos, Pedidos
-from por_copiar.utilidades import N_SECOND
+from utilidades import Pizzas, Locales, ContenidoPedidos, Pedidos
+from utilidades import N_SECOND
 
 sys.stdout = open(os.devnull, "w")
 

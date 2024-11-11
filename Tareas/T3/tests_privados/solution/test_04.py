@@ -1,4 +1,4 @@
-from por_copiar.utilidades import ContenidoPedidos, Locales, Pedidos, Pizzas
+from utilidades import ContenidoPedidos, Locales, Pedidos, Pizzas
 
 AJUSTAR_PRECIO_SEGUN_INGREDIENTES_S_1=[Pizzas(nombre='Pepinillos y Tocino_S', ingredientes='pepinillos;tocino;queso;salsa de cebolla', precio=23701), Pizzas(nombre='Pepinillos y Tocino_M', ingredientes='pepinillos;tocino;queso;salsa de cebolla', precio=24818), Pizzas(nombre='Pepinillos y Tocino_L', ingredientes='pepinillos;tocino;queso;salsa de cebolla', precio=29472)]
 AJUSTAR_PRECIO_SEGUN_INGREDIENTES_S_2=[Pizzas(nombre='Pimienta y Jamón_S', ingredientes='jamón;queso;salsa de pimienta', precio=18828), Pizzas(nombre='Pimienta y Jamón_M', ingredientes='jamón;queso;salsa de pimienta', precio=23520), Pizzas(nombre='Pimienta y Jamón_L', ingredientes='jamón;queso;salsa de pimienta', precio=29249)]

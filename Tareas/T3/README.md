@@ -24,6 +24,6 @@ que tienen "salsa de tomate" y no "tomate". Este ajuste está relacionado con el
 en formato HH:MM, ahora se encuentran en formato HH:MM:SS tal como se encuentran estos datos en los archivos csv. Se arregló la desconcordancia entre 
 tests de correctitud y tests de carga de datos (los tests de carga de datos sí respetaban el formato HH:MM:SS)
 
-<>11 de noviembre
+> 11 de noviembre
 1. Se eliminó la linea de "from por_copiar.utilidades import N_SECOND" de los tests privados. Esta línea se utiliza para corrección interna. 
 De esta manera los alumnos pueden correr los tests sin problema.
